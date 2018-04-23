@@ -26,7 +26,7 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-gem 'pkg-config'
+gem 'pkg-config', '~> 1.3'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -52,8 +52,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'capistrano'
   gem 'capistrano3-puma'
-  gem 'capistrano-rails', require: false
-  gem 'capistrano-bundler', require: false
+  gem 'capistrano-rails'
+  gem 'capistrano-bundler'
   gem 'capistrano-rvm'
 end
 
