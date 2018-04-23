@@ -1,4 +1,4 @@
-lock '3.10.0'
+lock '3.10.2'
 
 set :application, 'contactbook'
 set :repo_url, 'git@github.com:TopCoderKZ/contactbook.git' # Edit this to match your repository
