@@ -5,7 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# access cryptoexchanges API
 gem 'cryptoexchange'
+# cron jobs
+gem 'whenever', require: false
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 # Use postgresql as the database for Active Record
@@ -31,7 +34,6 @@ gem 'pkg-config', '~> 1.3'
 gem 'font-awesome-rails'
 gem 'neat'
 gem 'normalize-rails'
-gem 'compass-rails'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
