@@ -25,7 +25,5 @@ set :puma_workers, 0
 set :puma_worker_timeout, nil
 set :puma_init_active_record, true
 set :puma_preload_app, false
-
-require 'whenever/capistrano'
 set :whenever_environment, defer { stage }
 set :whenever_command, 'bundle exec whenever'
